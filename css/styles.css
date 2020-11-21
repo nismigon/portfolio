@@ -1,0 +1,226 @@
+/************************************************************/
+/* General */
+/************************************************************/
+
+body {
+    margin: 0px;
+    background-color:#eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  display: block;
+  width : 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border : none;
+  border-top: 10px dotted #68b0ab;
+}
+
+/************************************************************/
+/* Navigation bar */
+/************************************************************/
+
+.navigation-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigation-element {
+  float: left;
+}
+
+.navigation-element  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation-element a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #68b0ab;
+}
+
+.right {
+  float: right;
+}
+
+/************************************************************/
+/* Footer */
+/************************************************************/
+
+footer {
+  position: fixed;
+  width : 99%;
+  background-color: #333;
+  bottom: 0px;
+  left: 0px;
+  color : white;
+  padding-left: 1%;
+  height : 85px;
+} 
+
+footer ul {
+  padding-left: 10px;
+}
+
+footer ul li {
+  overflow: hidden;
+}
+
+.footer-img {
+  height: 24px ; 
+  vertical-align: middle;
+}
+
+.before-footer {
+  height : 85px;
+}
+
+/************************************************************/
+/* Profile */
+/************************************************************/
+
+.profile-image {
+  width: 15%;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-presentation{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width : 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.profile-sentence {
+  display: block;
+  padding: 20px;
+  margin : 0px;
+  color : #111;  
+}
+
+/************************************************************/
+/* Presentation */
+/************************************************************/
+
+.title {
+  text-align: center;
+  color : #68b0ab;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+details {
+  margin: 2%;
+  background-color: white;
+  padding : 20px;
+  border-radius: 20px;
+}
+
+.subtitle-h2 {
+  margin : 0px;
+  margin-left: 10px;
+  color : #68b0ab;
+}
+
+.subtitle-h3 {
+  color : #68b0ab;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+summary:after {
+  background: #68b0ab;
+  border-radius: 5px;
+  content: "+";
+  color: #fff;
+  float: right;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+}
+details[open] summary:after {
+  content: "-";
+}
+
+.section-title-dropdown {
+  display: inline-block;
+}
+
+.section-title {
+  display: block;
+  background-color: #fff;
+  margin : 2%;
+  padding : 20px;
+  border-radius: 20px;
+}
+
+.section-title-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section-image {
+  display: inline-block;
+  width : 70px;
+  vertical-align: middle;
+}
+
+/************************************************************/
+/* Education */
+/************************************************************/
+
+.education-title {
+  color : #111;
+}
+
+/************************************************************/
+/* Leadership and management */
+/************************************************************/
+
+.leadership {
+  display: block;
+  background-color: #fff;
+  margin : 2%;
+  padding : 20px;
+  border-radius: 20px;
+}
+
+.leadership-title {
+  color : #68b0ab;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+iframe {
+  width: 100%;
+  height: 800px;
+  overflow: hidden; 
+  margin-bottom: 5px
+}
+
+video {
+  width: 100%;
+}
